@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "my-mac-helper": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "--directory", "/Users/YOUR_NAME/git-course/mcp-mac-example",
+        "run", "server.py"
+      ]
+    }
+  }
+}
