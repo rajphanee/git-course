@@ -1,0 +1,20 @@
+{
+  "name": "live-reply-assistant",
+  "version": "1.0.0",
+  "description": "Listens to the other person, checks your documents, and tells you what to say back in plain words.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.14.0",
+    "express": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "multer": "^2.5.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
